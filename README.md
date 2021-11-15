@@ -1,8 +1,10 @@
 # Ice-Cream Poll Web App
 
-## About the Project/Problem Statement
+## About the Project
 
 This web app will allow the user to see different ice cream flavours sold by a fictional ice-cream company and vote for their favourite flavour. Polling results will be updated whenever a website visitor votes. It is built with Django framework using PostgreSQL, and deployed with Heroku.
+
+**Languages used:** HTML, CSS, SCSS, JavaScript, Python, SQL 
 
 **Website pages:**
 - Index/Home page 
@@ -13,15 +15,15 @@ This web app will allow the user to see different ice cream flavours sold by a f
 
 ## Prerequisites
 **Install locally:**
-Python 3
-Django 3.2.8
-django-sass-processor
-django-libsass
-dj-database-url 0.5.0
-gunicorn 20.1.0
-whitenois 5.3.0
-PostgreSQL -- if deploying with Heroku skip installation and use Heroku Postgres
-psycopg2
+- Python 3
+- Django 3.2.8
+- django-sass-processor
+- django-libsass
+- dj-database-url 0.5.0
+- gunicorn 20.1.0
+- whitenois 5.3.0
+- PostgreSQL -- if deploying with Heroku skip installation and use Heroku Postgres
+- psycopg2
 
 ## Usage
 - Install all prerequisites
