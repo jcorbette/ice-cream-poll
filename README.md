@@ -4,7 +4,9 @@
 
 This web app will allow the user to see different ice cream flavours sold by a fictional ice-cream company and vote for their favourite flavour. Polling results will be updated whenever a website visitor votes. It is built with Django framework using PostgreSQL, and deployed with Heroku.
 
-**Languages used:** HTML, CSS, SCSS, JavaScript, Python, SQL 
+**Languages used:** HTML, CSS, SCSS, JavaScript, Python, SQL
+
+**Link to completed project:** https://i-treats.herokuapp.com/
 
 **Website pages:**
 - Index/Home page 
