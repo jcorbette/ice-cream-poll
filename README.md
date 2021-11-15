@@ -41,5 +41,7 @@ python manage.py runserver
 - Refresh pgAdmin to see new table data
 - Run server again and try out the voting system to see the results! 
 
-## Project Images
+## Project Preview Video
+https://user-images.githubusercontent.com/59467011/141770696-9bb3a8d8-f1a4-41fa-a3c8-6ddddfe76268.mp4
+
 
