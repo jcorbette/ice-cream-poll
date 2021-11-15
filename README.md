@@ -23,7 +23,7 @@ This web app will allow the user to see different ice cream flavours sold by a f
 - django-libsass
 - dj-database-url 0.5.0
 - gunicorn 20.1.0
-- whitenois 5.3.0
+- whitenoise 5.3.0
 - PostgreSQL -- if deploying with Heroku skip installation and use Heroku Postgres
 - psycopg2
 
