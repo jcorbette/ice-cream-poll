@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}iTREATS Ltd. - Home{% endblock %}
+
+<h1>Hello</h1>
+
+{% block content %}
+    <div class="main_container">
+            
+        <div class="sub_content_1">
+            <h1>Craving A Cold Treat?</h1>
+            <h2>Ice-Cream Always Hits The Spot!</h1>
+        </div>
+        <div class="sub_content_2">
+            <div class="index_img_content">
+                <img class="ice-cream-1" src="{% static "images/ice-cream-main.png" %}" alt="Picture of two cones">
+            </div>
+            <div class="index_btn_content">
+                <button class="index_btn"><a href="{% url "voting-page" %}">Choose Your Favourite Flavour!</a></button>
+            </div>
+        </div>
+        
+    </div>
+
+{% endblock %}

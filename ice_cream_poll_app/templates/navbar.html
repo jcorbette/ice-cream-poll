@@ -1,0 +1,26 @@
+<nav class="navbar">
+    <div class="navbar_container">
+        <a href="{% url "home-page" %}" id="logo">iTREATS Ltd.</a>
+        <div class="navbar_toggle" id="mobile-menu">
+            <span class="bar"></span><span class="bar"></span>
+            <span class="bar"></span>
+            
+        </div>
+        <ul class="navbar_menu">
+            <li class="navbar_item">
+                <a href="{% url "home-page" %}" class="navbar_links" id="home-page">Home</a>
+            <li class="navbar_item">
+                <a href="{% url "about-page" %}" class="navbar_links" id="about-page">About</a>
+            </li>        
+            <li class="navbar_item">
+                <a href="{% url "flavours-page" %}" class="navbar_links" id="flavours-page"
+                >Flavours</a>
+            </li>
+            </li>
+            <li class="navbar_item">
+                <a href="{% url "voting-page" %}" class="navbar_links" id="home-page">Vote</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>

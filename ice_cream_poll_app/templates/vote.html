@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}iTREATS Ltd. - Polling{% endblock %}
+
+{% block content %}
+
+
+    <div class="main_container">  
+    
+
+        <div class="sub_content_1">
+            {% for question in questions %}
+                <h2 style="padding-top: 2.5rem">{{question.question}}</h2>            
+            {% endfor %}
+        </div>        
+        <div class="sub_content_2">
+
+            <div class="form">
+                <form method="POST" action="{% url "results-page" question.id %}">
+                    {% csrf_token %}
+                <ul id="vote-list">
+                    {% for option in options %}
+                    
+                    <label class="show-choices">
+                        <li class="choice-item">
+                            <input class="form-check-input" type="radio" name ="choice" value="{{option.id}}" aria-label="..." required>
+                            {{option.option}}
+                        </li>
+                    </label>
+                    {% endfor %}                   
+                    
+                </ul>
+                <input type="submit" value = "Submit" id = 'btn-vote'>
+                </form>
+            </div>
+        
+        </div>
+        
+        
+           
+    </div>
+
+{% endblock %}

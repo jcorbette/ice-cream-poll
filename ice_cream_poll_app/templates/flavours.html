@@ -1,0 +1,45 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}iTREATS Ltd. - Flavours{% endblock %}
+
+
+{% block content %}
+
+
+    <div class="main_container">
+        
+        <div class="sub_content_1">
+            <h2 id="h2-edit">Take a Look at Our Top Flavours!</h2>            
+        </div>
+        
+
+        <div class="column">
+            <div id="scrolling-wrapper" class="flv_container"></div>
+            <button id="arrow1">button button <br/> button</button>
+            <button id="arrow2">button button <br/> button</button>
+        </div> 
+        <div id="up-scroll"></div>
+        
+
+    </div>
+    
+   
+
+{% endblock %}
+
+{% block page_scripts %}     
+    
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    
+    <script>        
+        var json_link = "{% static '/json/flavours.json' %}"
+    </script>
+
+    <script src="{% static "js/flavours.js" %}"></script>   
+
+
+        
+{% endblock %}
+

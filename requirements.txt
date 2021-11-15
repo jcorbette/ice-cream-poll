@@ -1,0 +1,7 @@
+Django==3.2.8
+django-sass-processor
+django-libsass
+dj-database-url==0.5.0
+psycopg2
+gunicorn==20.1.0
+whitenoise==5.3.0

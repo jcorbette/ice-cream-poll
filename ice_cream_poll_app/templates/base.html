@@ -1,0 +1,59 @@
+
+{% load static %}
+{% load sass_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>{% block title %}{% endblock %}</title>
+		<link rel="shortcut icon" href="{% static "favicon/favicon.ico" %}"/>
+        <link rel="stylesheet" href="{% sass_src "css/main.scss" %}">
+        <link rel="stylesheet" href="{% sass_src "css/index.scss" %}">
+        <link rel="stylesheet" href="{% sass_src "css/navbar.scss" %}">
+        <link rel="stylesheet" href="{% sass_src "css/about.scss" %}">
+        <link rel="stylesheet" href="{% sass_src "css/flavours.scss" %}">
+        <link rel="stylesheet" href="{% sass_src "css/vote.scss" %}">
+        <link rel="stylesheet" href="{% sass_src "css/results.scss" %}">
+        <link rel="stylesheet" href="{% sass_src "css/footer.scss" %}">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>          
+
+    </head>
+    <body>
+      
+                
+        <div id="page_container">
+            
+            <div id="content-wrap" >
+
+                {% include 'navbar.html' %}
+                
+                {% block content %}                
+                
+                    replace me
+                    
+                {% endblock %}
+                
+            </div>
+
+            <footer id="footer">
+                {% include 'footer.html' %}
+            </footer>
+        </div>
+                    
+        
+        
+        {% block page_scripts %}
+        
+            
+            
+        {% endblock %}
+        
+        <script src="{% static "js/navbar.js" %}"></script>
+        
+
+    </body>
+</html>

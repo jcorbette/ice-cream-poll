@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}iTREATS Ltd. - Polling{% endblock %}
+
+
+{% block content %}
+
+
+    <div class="main_container">  
+    
+
+        <div class="sub_content_1">
+            <h1>Here are the Results of the Poll!</h1>
+        </div>        
+        <div class="sub_content_2">
+            <div class="list-results">
+                <h4>{{question.question}}</h4>
+                
+                <table class="blueTable">
+                    <thead>
+                        <tr>
+                            <th>Ice-Cream Flavour</th>
+                            <th>Votes</th>
+                            <th>Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody>                         
+                        {% for option in options %}
+                            <tr>
+                                <td>{{option.option}}</td><td>{{option.vote}}</td><td>
+                                    <div id="progress">
+                                        <span class="percent">{{option.get_percentage|floatformat:2}}%</span>
+                                        <div class="p-bar" style="width: {{option.get_percentage|floatformat:2}}%"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        {% endfor %}     
+                    </tbody>
+                </table>
+                
+              
+                
+                
+
+            </div>
+        
+        </div>
+        
+        
+           
+    </div>
+
+{% endblock %}
+

@@ -1,0 +1,56 @@
+{
+  "flavours" : [
+    {
+      "name" : "Butterscotch",
+      "image" : "https://marketplace.canva.com/MABz3mKFXHI/1/screen_2x/canva-ice-cream-MABz3mKFXHI.jpg",
+      "description" : "Dui faucibus in ornare quam. Aliquet eget sit amet tellus. Nisi vitae suscipit tellus mauris. Eget duis at tellus at urna condimentum mattis. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Pellentesque habitant morbi tristique senectus et netus. Amet nisl suscipit adipiscing bibendum est ultricies. In fermentum posuere urna nec tincidunt praesent semper feugiat."
+    },
+    {
+      "name" : "Chocolate",
+      "image" : "https://cdn.pixabay.com/photo/2021/07/29/18/08/ice-cream-6507713_960_720.jpg",
+      "description" : "In ante metus dictum at tempor commodo. Aliquam purus sit amet luctus venenatis lectus. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Blandit massa enim nec dui nunc. Nunc non blandit massa enim nec dui nunc mattis. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Laoreet sit amet cursus sit. Ut tellus elementum sagittis vitae et leo duis ut."
+    },
+    {
+      "name" : "Chocolate Chip",
+      "image" : "https://freerangestock.com/sample/138891/cold-sweet-ice-cream-with-chocolate.jpg",
+      "description" : "Ac felis donec et odio pellentesque diam volutpat commodo. Orci phasellus egestas tellus rutrum tellus pellentesque. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Vitae tempus quam pellentesque nec nam aliquam sem et tortor. In aliquam sem fringilla ut morbi tincidunt augue interdum velit."
+    },
+    {
+      "name" : "Cookies ‘N Cream",
+      "image" : "https://t4.ftcdn.net/jpg/01/31/63/77/240_F_131637750_cDM07pYxNAvIadVw8lOK25ASvfniekK6.jpg",
+      "description" : "Sed euismod nisi porta lorem mollis aliquam. Laoreet non curabitur gravida arcu ac. Diam maecenas ultricies mi eget mauris pharetra. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Quis enim lobortis scelerisque fermentum dui. Adipiscing vitae proin sagittis nisl. Turpis egestas maecenas pharetra convallis posuere morbi. Sit amet est placerat in egestas erat imperdiet sed. Sapien et ligula ullamcorper malesuada proin."
+    },
+	{
+      "name" : "Cotton Candy",
+      "image" : "https://marketplace.canva.com/_33co/MAEftv_33co/1/s2/canva-person-holding-ice-cream-cone-MAEftv_33co.jpg",
+      "description" : "Scelerisque fermentum dui faucibus in ornare quam. Sit amet luctus venenatis lectus magna fringilla urna. Diam vel quam elementum pulvinar etiam non. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a. Nisi porta lorem mollis aliquam ut porttitor leo a. Eu facilisis sed odio morbi quis commodo odio aenean sed. Lacinia quis vel eros donec ac odio tempor orci."
+    },
+	{
+      "name" : "Mint Chocolate Chip",
+      "image" : "https://marketplace.canva.com/rreK0/MAEqmXrreK0/1/s2/canva-mint-chocolate-chip-ice-cream-on-a-tray-with-scoop-MAEqmXrreK0.jpg",
+      "description" : "Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Scelerisque purus semper eget duis at tellus at. Mattis vulputate enim nulla aliquet porttitor. Elit duis tristique sollicitudin nibh sit amet commodo nulla. Nunc sed blandit libero volutpat sed cras."
+    },
+	{
+      "name" : "Rocky Road",
+      "image" : "https://images.unsplash.com/photo-1597648152428-f883fbc9c873?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "description" : "Enim praesent elementum facilisis leo. In cursus turpis massa tincidunt dui ut ornare lectus. Mi proin sed libero enim sed. Est lorem ipsum dolor sit amet consectetur. Ornare lectus sit amet est placerat in egestas erat imperdiet. Enim neque volutpat ac tincidunt vitae. Leo in vitae turpis massa. Et leo duis ut diam quam nulla porttitor massa."
+    },
+	  {
+      "name" : "Salted Caramel",
+      "image" : "https://marketplace.canva.com/MABz3oai2vI/1/screen_2x/canva-ice-cream-MABz3oai2vI.jpg",
+      "description" : "Aenean et tortor at risus viverra adipiscing at. Ornare lectus sit amet est placerat in. Imperdiet dui accumsan sit amet nulla. Arcu ac tortor dignissim convallis aenean et tortor at risus. A scelerisque purus semper eget duis at. Tortor posuere ac ut consequat semper. Congue mauris rhoncus aenean vel elit scelerisque mauris."
+    },
+	  {
+      "name" : "Strawberry",
+      "image" : "https://cdn.pixabay.com/photo/2017/04/18/15/18/strawberry-ice-cream-2239407_960_720.jpg",
+      "description" : "Amet volutpat consequat mauris nunc. Nulla pellentesque dignissim enim sit amet venenatis urna. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. Ornare lectus sit amet est placerat. Nunc pulvinar sapien et ligula ullamcorper malesuada. Duis tristique sollicitudin nibh sit amet commodo. Quam adipiscing vitae proin sagittis nisl rhoncus."
+    },
+	  {
+      "name" : "Vanilla",
+      "image" : "https://cdn.pixabay.com/photo/2016/06/07/01/49/ice-cream-1440830_960_720.jpg",
+      "description" : "Pharetra et ultrices neque ornare aenean euismod elementum nisi. Eu non diam phasellus vestibulum lorem sed. Ultrices neque ornare aenean euismod elementum nisi. Egestas sed sed risus pretium quam vulputate dignissim suspendisse in. Sagittis purus sit amet volutpat consequat mauris nunc. Sed libero enim sed faucibus turpis in eu."
+    }	
+  ]
+}
+
+
